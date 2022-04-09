@@ -1,0 +1,486 @@
+body{
+    background-color: #fffef9;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    line-height: 2rem;
+    color: gray;
+    font-size: 1.15em;
+    font-weight: 200;
+}
+
+h2{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+h3{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 700;
+    padding: 5%;
+
+}
+h6{
+    color: #fdd831;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+/* sections */
+#second-section{
+    width:100%;
+}
+#first-page  {
+  
+}
+
+#second-page{
+    padding: 1% 6% 1% 2%;
+}
+
+#third-page{
+    padding: 1% 2% 1% 6%;
+}
+#fourth-page{
+    padding: 1% 6% 1% 2%;
+}
+
+
+
+
+
+/* classes */
+.container-fluid{
+    padding: 0;
+}
+
+/* fonts */
+
+.title-text{
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+    font-size: 2.5 rem;
+}
+
+.description-para{
+    font-weight: lighter ;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.altered-text{
+    /* font-style: italic; */
+    font-family: 'Gloria Hallelujah',cursive;
+    color: #fdd831;
+}
+
+
+/* other classes */
+
+
+.container-fluid{
+   
+}
+
+.title-heading{
+    padding: 30px 30% 10px;
+}
+
+
+
+
+
+.yellow-rule{
+    
+    border: none;
+    border-top: solid;
+    border-width: 3px;
+    width: 40%;
+    color: #fdd831;
+}
+
+.title-para{
+    padding: 30px 30%;
+}
+
+.banner-image{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+/* second page */
+
+#popout-area{
+    position: relative;
+    z-index: 1;
+    bottom: 9em;
+    padding: 0 10% ;
+
+}
+
+.box{
+    background-color: #fff !important;
+    text-align: center;
+    padding: 16px 15% 8%;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 45%);
+    border: 1px solid #efefef;
+    border-radius: 0.5rem;
+}
+
+#second-section{
+    position: absolute;
+    z-index: 5;
+    background-color: #fffef9;
+    top: 64rem;
+    padding-top: 1%;
+}
+
+.poping-box{
+    color: black;
+}
+
+.feature-area{
+   margin : 3% 5%;
+   
+
+}
+
+
+.feature-image{
+
+}
+.yellow-bg{
+    width: 100%;
+    height: 100%;
+   
+}
+.feature-brush{
+    width: 65%;
+    height: 75%;
+ } 
+
+ #second-page .foreground-pic{
+    bottom: 95%;
+ }
+
+.foreground-pic{
+    width: 100%;
+    height: 65%;
+    z-index: 1;
+    position: relative;
+    bottom: 93%;
+}
+
+
+.feature-children{
+
+    border-radius: 15px;
+    height: 96%;
+    width: 50%;
+
+} 
+.csr-box{
+    text-align: left;
+    padding: 0;
+
+}
+
+.know-more{
+    background-color: #fdd831;
+    border-radius: 2rem;
+    font-size: smaller;
+}
+
+@media screen and (max-width:767px)and (min-width:640px) {
+    #third-page{
+        position: relative;
+        top: 40rem;
+    }
+    .second-image{
+        position: relative;
+        bottom:84rem;
+    }
+}
+
+@media screen and (max-width:640px)and (min-width:550px) {
+    #third-page{
+        position: relative;
+        top: 35rem;
+    }
+    .second-image{
+        position: relative;
+        bottom:84rem;
+    }
+}
+@media screen and (max-width:550px)and (min-width:500px) {
+    #third-page{
+        position: relative;
+        top: 32rem;
+    }
+    .second-image{
+        position: relative;
+        bottom:86rem;
+    }
+}
+@media screen and (max-width:500px)and (min-width:455px) {
+    #third-page{
+        position: relative;
+        top: 27rem;
+    }
+    .second-image{
+        position: relative;
+        bottom:84rem;
+    }
+}
+@media screen and (max-width:454px)and (min-width:417px) {
+    #third-page{
+        position: relative;
+        top: 26rem;
+    }
+    .second-image{
+        position: relative;
+        bottom: 92rem;
+    }
+}
+@media screen and (max-width:417px)and (min-width:353px) {
+    #third-page{
+        position: relative;
+        top: 22rem;
+    }
+    .second-image{
+        position: relative;
+        bottom: 96rem;
+    }
+}
+
+@media screen and (max-width:353px)and (min-width:328px) {
+    #third-page{
+        position: relative;
+        top: 20rem;
+    }
+    .second-image{
+        position: relative;
+        bottom: 104rem;
+    }
+}
+@media screen and (max-width:328px)and (min-width:314px) {
+    #third-page{
+        position: relative;
+        top: 20rem;
+    }
+    .second-image{
+        position: relative;
+        bottom: 108rem;
+    }
+}
+   
+    
+    
+    
+
+  
+
+/* Third-page */
+
+.brand-section{
+    margin : 3% 5%;
+
+}
+.brand-text{
+    text-align: left;
+}
+
+
+/* Cards */
+.card-container{
+    padding: 10px 15px 10px 0;
+    height: fit-content;
+}
+
+.partner-card{
+    padding: 0;
+    box-shadow: 0 0 1rem 1rem rgb(0 0 0 / 10%);
+    border: 1px solid #efefef;
+    border-bottom: 0.4rem solid #efefef;
+    border-radius: 0.5rem;
+    margin: 7%;
+   
+}
+
+.card-section{
+    padding: 5% 7%;
+}
+
+.card-img-top{
+    width: 70%;
+    margin: auto;
+}
+
+/* testimonials */
+
+.testimonial-section{
+    text-align: left;
+    margin: 3% 7%;
+}
+
+.carousel-image{
+    width: 80% !important;
+    margin-left: 5%;
+    margin-right: 2%;
+    float: left;
+    display: inline;
+
+}
+
+.partner-logo{
+    width: 25% !important;
+    
+}
+
+.item{
+    margin: 3%;
+    padding: 10px;
+}
+
+.owl-carousel .active span {
+    background: #fdd831 !important;
+}
+
+
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 15px;
+}
+
+.my-parent-class .owl-carousel .owl-item {
+    -webkit-animation-duration: 3s !important;
+    animation-duration: 3s !important;
+}
+
+/* cards */
+.sponser-heading{
+    padding: 5% 3% 0;
+}
+
+.brandlogo-area{
+    padding: 3% 7%;
+}
+.logo-image{
+    width: 70%;
+    padding: 20px;
+}
+.logo-image-last{
+    width: 70%;
+    padding: 20px;
+}
+
+.partner-image{
+    width: 80%;
+    margin: 30px;
+}
+.partner-image-last{
+    width: 40%;
+    margin-left: 35%;
+}
+
+@media screen and (max-width:992px) {
+    .partner-image-last{
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+}
+
+/* Closing section */
+
+.lower-body{
+    padding: 3% 10%;
+    text-align: left;
+}
+.clip-image{
+    display: inline-block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding-top: 5px;
+    margin: 2px;
+}
+.closing-log{
+   
+}
+.closing-words{
+   padding: 5px;
+}
+.closing-text{
+    display: inline;
+    font-weight: lighter;
+    line-height: .15em;
+}
+
+ @media screen and (max-width: 1200px )and (min-width: 768px) {
+     #second-section{
+        position: absolute;
+        z-index: 5;
+        background-color: #fffef9;
+        top: 55rem;
+        padding-top: 1%;
+        }
+    }
+
+ @media screen and (max-width: 767px )and (min-width: 502px) {
+        #second-section{
+           position: absolute;
+           z-index: 5;
+           background-color: #fffef9;
+           top: 65rem;
+           padding-top: 1%;
+        }
+    }
+       
+@media screen and (max-width: 502px )and (min-width: 445px) {
+    #second-section{
+        position: absolute;
+        z-index: 5;
+        background-color: #fffef9;
+        top: 70rem;
+        padding-top: 1%;
+       }
+    }
+
+ @media screen and (max-width: 445px )and (min-width: 420px) {
+    #second-section{
+    position: absolute;
+    z-index: 5;
+    background-color: #fffef9;
+    top: 72rem;
+    padding-top: 1%;
+    }
+}
+    @media screen and (max-width : 420px)and (min-width: 330px) {
+        #second-section{
+            position: absolute;
+            z-index: 5;
+            background-color: #fffef9;
+            top: 78rem;
+            padding-top: 1%;
+        }   
+    }
+
+    @media screen and (max-width : 330px) {
+        #second-section{
+            position: absolute;
+            z-index: 5;
+            background-color: #fffef9;
+            top: 90rem;
+            padding-top: 1%;
+        }   
+    }
